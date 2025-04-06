@@ -1,0 +1,76 @@
+body {
+    background-color: #FFFFFF;
+    color: #000; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #afafaf;
+    overflow: hidden;
+    position: fixed;
+    text-align: center;
+    word-spacing: 40px;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.topbar a:link, .topbar a:visited {
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 25px;
+    color: #000; 
+    font-size: 20px;
+}
+
+.topbar a:hover, .topbar a:active {
+    background-color: rgb(94, 94, 94);
+    color: #FFFFFF;
+}
+
+.content {
+    font-size: 14px;
+    margin-left: 280px;
+    margin-bottom: 200px;
+}
+
+
+h1 {
+    margin-top: 60px;
+}
+
+.sidebar {
+    float: right;
+    width: 35%;
+    padding: 10px;
+    margin: 10px 10px;
+    background-color: #dadada;
+    font-weight: bold;
+}
+
+figure {
+    display: block;
+    margin-left: auto;
+    margin-right: 35%;
+    width: 40%;
+}
+
+figcaption {
+    padding: 4px;
+    text-align: center; 
+    color:#777777;
+}
+
+.leftbar {
+    height: 100%;
+    position: fixed;
+    width: 250px;
+    background-color:#e0e0e0;
+    padding: 10px;
+    top:50px;
+    left:0;
+    z-index: 1;
+}
